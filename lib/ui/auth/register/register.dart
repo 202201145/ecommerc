@@ -224,7 +224,7 @@ class _RegisterState extends State<Register> {
                               borderRadius: BorderRadius.circular(15)))),
                       onPressed: () {
                         cubit.register();
-                        Navigator.pushNamed(context, Hometab.routename);
+
                       },
                       child: Text(
                         'sign up',
